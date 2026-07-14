@@ -2,7 +2,6 @@ import os
 
 import flet as ft
 import pymysql as pms
-from gspread import Worksheet
 
 class FletDBApp:
     def __init__(self, page: ft.Page):
