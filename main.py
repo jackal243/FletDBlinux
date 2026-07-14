@@ -91,7 +91,7 @@ class FletDBApp:
                     "INSERT INTO users(email,password) VALUES(%s,%s)",
                     (email, password)
                     )
-                self.conn.commit()
+                conn.commit()
                 print("登録完了")
         finally:
             print("登録終了")
